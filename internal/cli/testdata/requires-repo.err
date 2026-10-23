@@ -1,0 +1,21 @@
+Usage:
+  /usr/bin/ostree refs [OPTION?] [PREFIX]
+
+List refs
+
+Help Options:
+  -h, --help            Show help options
+
+Application Options:
+  --repo=PATH           Path to OSTree repository (defaults to current directory or /sysroot/ostree/repo)
+  --delete              Delete refs which match PREFIX, rather than listing them
+  --list                Do not remove the prefix from the refs
+  -r, --revision        Show revisions in listing
+  -A, --alias           If used with --create, create an alias, otherwise just list aliases
+  --create=NEWREF       Create a new ref for an existing commit
+  -c, --collections     Enable listing collection IDs for refs
+  --force               Overwrite existing refs when creating
+  -v, --verbose         Print debug information during command processing
+  --version             Print version information and exit
+
+error: Command requires a --repo argument

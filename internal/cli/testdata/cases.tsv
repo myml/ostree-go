@@ -1,0 +1,43 @@
+# L1 CLI golden cases, shared by gen-cli-golden.sh and the Go test.
+# Format: one case per line, tab-separated:
+#   NAME <TAB> ARG1 <TAB> ARG2 ...
+# Lines starting with "#" and blank lines are ignored.
+#
+# All cases are captured with LC_ALL=C, an empty temp cwd and
+# OSTREE_REPO pointing to a nonexistent directory.
+
+# Help pages: GLib two-column layout, section order, trailing blank line.
+help	--help
+help-all	refs	--help-all
+refs-help	refs	--help
+rev-parse-help	rev-parse	--help
+cat-help	cat	--help
+remote-help	remote	--help
+static-delta-help	static-delta	--help
+short-help	refs	-h
+
+# Version YAML (Git/Features are normalized by the test).
+version	--version
+version-in-command	refs	--version
+
+# Dispatch errors and exit codes.
+noargs
+unknown-command	frobnicate
+unknown-option-top	--frobnicate
+unknown-option	refs	--bogus
+missing-argument	refs	--repo
+dash-command	-
+remote-no-subcommand	remote
+static-delta-no-subcommand	static-delta
+static-delta-unknown-subcommand	static-delta	bogus
+
+# Repo resolution.
+requires-repo	refs
+repo-eq-not-found	refs	--repo=/nonexistent-ostree-repo-for-tests
+
+# Option parser details.
+requires-repo-double-dash	refs	--	--help
+short-aggregate	refs	-rv
+short-aggregate-unknown	refs	-rz
+unknown-short	refs	-x
+repo-before-command	--repo	/nonexistent-ostree-repo-for-tests	refs

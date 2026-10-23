@@ -1,0 +1,39 @@
+Usage:
+  /usr/bin/ostree [OPTION?] COMMAND
+
+Builtin Commands:
+  admin             Commands for managing a host system booted with ostree
+  cat               Concatenate contents of files
+  checkout          Check out a commit into a filesystem tree
+  checksum          Checksum a file or directory
+  commit            Commit a new revision
+  config            Change repo configuration settings
+  diff              Compare directory TARGETDIR against revision REV
+  export            Stream COMMIT to stdout in tar format
+  find-remotes      Find remotes to serve the given refs
+  create-usb        Copy the refs to a USB stick
+  fsck              Check the repository for consistency
+  gpg-sign          Sign a commit
+  init              Initialize a new empty repository
+  log               Show log starting at commit or ref
+  ls                List file paths
+  prune             Search for unreachable objects
+  pull-local        Copy data from SRC_REPO
+  pull              Download data from remote repository
+  refs              List refs
+  remote            Remote commands that may involve internet access
+  reset             Reset a REF to a previous COMMIT
+  rev-parse         Output the target of a rev
+  sign              Sign a commit
+  show              Output a metadata object
+  static-delta      Static delta related commands
+  summary           Manage summary metadata
+
+Help Options:
+  -h, --help        Show help options
+
+Application Options:
+  -v, --verbose     Print debug information during command processing
+  --version         Print version information and exit
+
+error: Unknown option --frobnicate

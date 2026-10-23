@@ -1,0 +1,14 @@
+Usage:
+  /usr/bin/ostree rev-parse [OPTION?] REV
+
+Output the target of a rev
+
+Help Options:
+  -h, --help        Show help options
+
+Application Options:
+  --repo=PATH       Path to OSTree repository (defaults to current directory or /sysroot/ostree/repo)
+  -S, --single      If the repository has exactly one commit, then print it; any other case will result in an error
+  -v, --verbose     Print debug information during command processing
+  --version         Print version information and exit
+

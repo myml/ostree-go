@@ -1,0 +1,13 @@
+Usage:
+  ostree static-delta [OPTION...] COMMAND
+
+Builtin "static-delta" Commands:
+  list             List static delta files
+  show             Dump information on a delta
+  delete           Remove a delta
+  generate         Generate static delta files
+  apply-offline    Apply static delta file
+  verify           Verify static delta signatures
+  indexes          List static delta indexes
+  reindex          Regenerate static delta indexes
+

@@ -1,0 +1,13 @@
+Usage:
+  /usr/bin/ostree cat [OPTION?] COMMIT PATH...
+
+Concatenate contents of files
+
+Help Options:
+  -h, --help        Show help options
+
+Application Options:
+  --repo=PATH       Path to OSTree repository (defaults to current directory or /sysroot/ostree/repo)
+  -v, --verbose     Print debug information during command processing
+  --version         Print version information and exit
+

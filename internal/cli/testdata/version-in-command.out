@@ -1,0 +1,16 @@
+libostree:
+ Version: '2025.2'
+ Features:
+  - inode64
+  - initial-var
+  - libcurl
+  - libsoup3
+  - gpgme
+  - ex-fsverity
+  - libarchive
+  - selinux
+  - avahi
+  - libmount
+  - systemd
+  - release
+  - p2p

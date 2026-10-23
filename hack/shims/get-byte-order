@@ -1,0 +1,15 @@
+#!/bin/sh
+# Minimal get-byte-order replacement for OSTree's tests.
+# The C helper prints 4321 for little-endian and 1234 for big-endian.
+set -eu
+order=$(printf '\001\000' | od -An -tu2 | tr -d ' ')
+case "$order" in
+  1) echo 4321 ;;
+  256) echo 1234 ;;
+  *)
+    case "$(uname -m)" in
+      x86_64|i?86|aarch64|arm*|riscv64|ppc64le|s390x) echo 4321 ;;
+      *) echo 1234 ;;
+    esac
+    ;;
+esac

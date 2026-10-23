@@ -1,0 +1,26 @@
+Usage:
+  /usr/bin/ostree remote [OPTION?] COMMAND
+
+Remote commands that may involve internet access
+
+Builtin "remote" Commands:
+  add               Add a remote repository
+  delete            Delete a remote repository
+  show-url          Show remote repository URL
+  list              List remote repository names
+  gpg-import        Import GPG keys
+  gpg-list-keys     Show remote GPG keys
+  add-cookie        Add a cookie to remote
+  delete-cookie     Remove one cookie from remote
+  list-cookies      Show remote repository cookies
+  refs              List remote refs
+  summary           Show remote summary
+
+Help Options:
+  -h, --help        Show help options
+
+Application Options:
+  -v, --verbose     Print debug information during command processing
+  --version         Print version information and exit
+
+error: No "remote" subcommand specified

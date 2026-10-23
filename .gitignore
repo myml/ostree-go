@@ -1,0 +1,9 @@
+# Build outputs
+/ostree
+/testhttpd
+*.test
+*.prof
+
+# Coverage
+coverage.out
+coverdata/
