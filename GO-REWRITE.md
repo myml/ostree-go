@@ -58,7 +58,7 @@
 │ L2 go/internal/cmd{,/admin,/remote,/delta}                   │
 │    每个命令的薄适配：选项 → 服务调用 → 输出格式化              │
 ├──────────────────────────────────────────────────────────────┤
-│ L3 go/internal/{commit,checkout,diff,fsck,prune,pull,deploy, │
+│ L3 go/pkg/{commit,checkout,diff,fsck,prune,pull,deploy, │
 │                  summary,findremotes,createusb}              │
 │    用例编排；不直接做 I/O 细节                                │
 ├──────────────────────────────────────────────────────────────┤
@@ -91,6 +91,7 @@ go/
       admin/                      deploy.go status.go switch.go upgrade.go ...
       remote/                     add.go list.go refs.go summary.go ...
       delta/                      list.go show.go generate.go apply.go ...
+  pkg/
     commit/                       mtree.go modifier.go devino.go sizes.go write.go
     checkout/                     checkout.go whiteout.go hardlink.go
     diff/  fsck/  prune/  traverse/

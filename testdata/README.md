@@ -224,7 +224,7 @@ libostree:
   - `--test NAME`、`--all`、`--timeout`、`--keep`；
   - `--ostree-binary /usr/bin/ostree` 可用于在没有 Go CLI 时验证 harness 本身。
 - `go/hack/interop.sh`：双向对拍骨架。C→Go 用本目录 fixture 比较 `refs`/`rev-parse`/`show`/`log`/`ls -R`/`cat`/`summary -v`/`fsck --all`/`static-delta list`；Go→C 用 Go 建仓后要求 C `fsck --all` 通过。未实现的命令报告 SKIP（`--strict` 时视为失败）。
-- `go/internal/testhttpd`：替代 C `ostree-trivial-httpd` 的纯 Go 静态服务器，支持 Range、ETag、Last-Modified、`--force-range-requests`、基础认证、expected cookie/header、随机 500/408、`--daemonize`、`--autoexit`。
+- `go/pkg/testhttpd`：替代 C `ostree-trivial-httpd` 的纯 Go 静态服务器，支持 Range、ETag、Last-Modified、`--force-range-requests`、基础认证、expected cookie/header、随机 500/408、`--daemonize`、`--autoexit`。
 
 ## 8. 已知限制
 

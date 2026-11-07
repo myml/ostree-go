@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/pkg/checksum"
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/fsutil"
-	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/pkg/fsutil"
+	"github.com/myml/ostree-go/pkg/object"
 )
 
 func checksumOptions() []cli.Option {

@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/export"
+	"github.com/myml/ostree-go/pkg/export"
 )
 
 func exportOptions() []cli.Option {

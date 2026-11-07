@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/myml/ostree-go/internal/bootconfig"
+	"github.com/myml/ostree-go/pkg/bootconfig"
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/gpg"
-	"github.com/myml/ostree-go/internal/repo"
-	"github.com/myml/ostree-go/internal/sign"
-	"github.com/myml/ostree-go/internal/sysroot"
+	"github.com/myml/ostree-go/pkg/gpg"
+	"github.com/myml/ostree-go/pkg/repo"
+	"github.com/myml/ostree-go/pkg/sign"
+	"github.com/myml/ostree-go/pkg/sysroot"
 )
 
 // adminSubcommandHelp is the static subcommand table used when `ostree admin`

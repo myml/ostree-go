@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/gpg"
-	"github.com/myml/ostree-go/internal/repo"
-	"github.com/myml/ostree-go/internal/sign"
+	"github.com/myml/ostree-go/pkg/gpg"
+	"github.com/myml/ostree-go/pkg/repo"
+	"github.com/myml/ostree-go/pkg/sign"
 )
 
 // remoteGpgImportOptions mirrors ot-remote-builtin-gpg-import.c.

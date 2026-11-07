@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/pull"
+	"github.com/myml/ostree-go/pkg/pull"
 )
 
 // cookieJarPath returns <repo>/<remote>.cookies.txt.

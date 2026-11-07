@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/sign"
-	"github.com/myml/ostree-go/internal/staticdelta"
+	"github.com/myml/ostree-go/pkg/sign"
+	"github.com/myml/ostree-go/pkg/staticdelta"
 )
 
 // registerStaticDelta wires the implemented static-delta subcommands.

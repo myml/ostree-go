@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/pull"
+	"github.com/myml/ostree-go/pkg/pull"
 )
 
 // pullLocalOptions mirrors ot-builtin-pull-local.c, in the same order, so

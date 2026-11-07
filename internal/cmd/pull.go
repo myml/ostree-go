@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/object"
-	"github.com/myml/ostree-go/internal/pull"
-	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/pkg/object"
+	"github.com/myml/ostree-go/pkg/pull"
+	"github.com/myml/ostree-go/pkg/repo"
 )
 
 func pullOptions() []cli.Option {

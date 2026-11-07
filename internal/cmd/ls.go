@@ -12,10 +12,10 @@ import (
 	"golang.org/x/sys/unix"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/fsutil"
-	"github.com/myml/ostree-go/internal/gvariant"
-	"github.com/myml/ostree-go/internal/object"
-	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/pkg/fsutil"
+	"github.com/myml/ostree-go/pkg/gvariant"
+	"github.com/myml/ostree-go/pkg/object"
+	"github.com/myml/ostree-go/pkg/repo"
 )
 
 func lsOptions() []cli.Option {

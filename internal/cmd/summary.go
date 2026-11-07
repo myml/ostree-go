@@ -10,15 +10,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/pkg/checksum"
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/commit"
-	"github.com/myml/ostree-go/internal/gpg"
-	"github.com/myml/ostree-go/internal/gvariant"
-	"github.com/myml/ostree-go/internal/object"
-	"github.com/myml/ostree-go/internal/repo"
-	"github.com/myml/ostree-go/internal/sign"
-	"github.com/myml/ostree-go/internal/staticdelta"
+	"github.com/myml/ostree-go/pkg/commit"
+	"github.com/myml/ostree-go/pkg/gpg"
+	"github.com/myml/ostree-go/pkg/gvariant"
+	"github.com/myml/ostree-go/pkg/object"
+	"github.com/myml/ostree-go/pkg/repo"
+	"github.com/myml/ostree-go/pkg/sign"
+	"github.com/myml/ostree-go/pkg/staticdelta"
 )
 
 // summaryOptions mirrors the GOption entries of ot-builtin-summary.c.

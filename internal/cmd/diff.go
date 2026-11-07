@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/diff"
+	"github.com/myml/ostree-go/pkg/diff"
 )
 
 func diffOptions() []cli.Option {

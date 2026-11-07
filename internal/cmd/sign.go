@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/repo"
-	"github.com/myml/ostree-go/internal/sign"
+	"github.com/myml/ostree-go/pkg/repo"
+	"github.com/myml/ostree-go/pkg/sign"
 )
 
 // signOptions mirrors ot-builtin-sign.c.

@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/myml/ostree-go/internal/bootconfig"
+	"github.com/myml/ostree-go/pkg/bootconfig"
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/pull"
-	"github.com/myml/ostree-go/internal/repo"
-	"github.com/myml/ostree-go/internal/sysroot"
-	"github.com/myml/ostree-go/internal/tree"
+	"github.com/myml/ostree-go/pkg/pull"
+	"github.com/myml/ostree-go/pkg/repo"
+	"github.com/myml/ostree-go/pkg/sysroot"
+	"github.com/myml/ostree-go/pkg/tree"
 )
 
 func adminDeployOptions() []cli.Option {

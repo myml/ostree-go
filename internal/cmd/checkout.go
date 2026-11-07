@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/myml/ostree-go/internal/checkout"
+	"github.com/myml/ostree-go/pkg/checkout"
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/tree"
+	"github.com/myml/ostree-go/pkg/tree"
 )
 
 func checkoutOptions() []cli.Option {

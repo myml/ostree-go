@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/fsck"
+	"github.com/myml/ostree-go/pkg/fsck"
 )
 
 func fsckOptions() []cli.Option {

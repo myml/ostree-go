@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/myml/ostree-go/internal/cli"
-	"github.com/myml/ostree-go/internal/object"
-	"github.com/myml/ostree-go/internal/repo"
-	"github.com/myml/ostree-go/internal/tree"
+	"github.com/myml/ostree-go/pkg/object"
+	"github.com/myml/ostree-go/pkg/repo"
+	"github.com/myml/ostree-go/pkg/tree"
 )
 
 func runCat(ctx *cli.Context) error {
