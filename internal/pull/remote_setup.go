@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // RemoteConfig is the transport-relevant subset of a [remote "..."] group.

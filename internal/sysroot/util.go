@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	"ostree-go/internal/repo"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 func timeNow() time.Time { return time.Now() }

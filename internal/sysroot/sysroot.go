@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"ostree-go/internal/bootconfig"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/bootconfig"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // Deployment is one entry of the sysroot's deployment list.

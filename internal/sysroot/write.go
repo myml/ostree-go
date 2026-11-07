@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"ostree-go/internal/bootconfig"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/bootconfig"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // SimpleWriteDeploymentFlags mirror OstreeSysrootSimpleWriteDeploymentFlags.

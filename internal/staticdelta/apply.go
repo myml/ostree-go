@@ -10,12 +10,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"ostree-go/internal/checksum"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/sign"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/sign"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 // CommitBytes returns the target commit object exactly as it is serialized

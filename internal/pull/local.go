@@ -19,11 +19,11 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"ostree-go/internal/checksum"
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/staticdelta"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/staticdelta"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 // Options mirrors the option table of ot-builtin-pull-local.c.

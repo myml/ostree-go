@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/object"
-	"ostree-go/internal/pull"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/pull"
 )
 
 // remoteRefsOptions mirrors ot-remote-builtin-refs.c.

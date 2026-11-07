@@ -13,10 +13,10 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"ostree-go/internal/checksum"
-	"ostree-go/internal/fsutil"
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/fsutil"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // LoadCommit reads a commit object by checksum.

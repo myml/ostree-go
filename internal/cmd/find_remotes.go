@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/pull"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/pull"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // findRemotesOptions mirrors ot-builtin-find-remotes.c, in the same order.

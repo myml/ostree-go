@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/pull"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/pull"
 )
 
 // pullLocalOptions mirrors ot-builtin-pull-local.c, in the same order, so

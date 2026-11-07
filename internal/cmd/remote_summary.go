@@ -5,10 +5,10 @@ import (
 	"io"
 	"sort"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/object"
-	"ostree-go/internal/pull"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/pull"
 )
 
 // remoteSummaryOptions mirrors ot-remote-builtin-summary.c.

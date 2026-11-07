@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/object"
 )
 
 // verifyCommitBindings implements _ostree_repo_verify_bindings(): it checks

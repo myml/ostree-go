@@ -1,9 +1,9 @@
 package pull
 
 import (
-	"ostree-go/internal/checksum"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/object"
 )
 
 // CollectionRef identifies a ref inside an OSTree collection.

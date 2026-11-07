@@ -3,10 +3,10 @@ package cmd
 import (
 	"fmt"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/gpg"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/sign"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/gpg"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/sign"
 )
 
 // gpgSignOptions mirrors ot-builtin-gpg-sign.c.

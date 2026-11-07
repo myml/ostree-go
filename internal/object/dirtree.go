@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"ostree-go/internal/checksum"
-	"ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/gvariant"
 )
 
 // DirtreeType is the GVariant type of a dirtree object.

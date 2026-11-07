@@ -12,10 +12,10 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"ostree-go/internal/fsutil"
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/fsutil"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 // Options controls Checkout.

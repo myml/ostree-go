@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // lookupLocalCache checks the --localcache-repo repositories for an object.

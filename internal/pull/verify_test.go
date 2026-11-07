@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"ostree-go/internal/gpg"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/sign"
+	"github.com/myml/ostree-go/internal/gpg"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/sign"
 )
 
 func encodeDetached(t *testing.T, key string, sigs ...[]byte) []byte {

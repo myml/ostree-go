@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/object"
 )
 
 // validateDirtreeNames mirrors _ostree_validate_structureof_dirtree(): every

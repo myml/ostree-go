@@ -3,7 +3,7 @@ package object
 import (
 	"fmt"
 
-	"ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/gvariant"
 )
 
 // DirmetaType is the GVariant type of a dirmeta object.

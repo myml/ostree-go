@@ -7,15 +7,15 @@ import (
 	"strconv"
 	"strings"
 
-	"ostree-go/internal/checkout"
-	"ostree-go/internal/cli"
-	"ostree-go/internal/commit"
-	"ostree-go/internal/dateparse"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/importtar"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/sign"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/checkout"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/commit"
+	"github.com/myml/ostree-go/internal/dateparse"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/importtar"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/sign"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 func commitOptions() []cli.Option {

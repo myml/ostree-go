@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"strings"
 
-	"ostree-go/internal/bootconfig"
-	"ostree-go/internal/bootloader"
-	"ostree-go/internal/checkout"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/bootconfig"
+	"github.com/myml/ostree-go/internal/bootloader"
+	"github.com/myml/ostree-go/internal/checkout"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // kernelLayout describes where a deployment's kernel lives and what it is

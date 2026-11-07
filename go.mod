@@ -1,4 +1,4 @@
-module ostree-go
+module github.com/myml/ostree-go
 
 go 1.26.0
 

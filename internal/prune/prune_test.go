@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"ostree-go/internal/commit"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/commit"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 const cOstree = "/usr/bin/ostree"

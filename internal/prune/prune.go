@@ -14,12 +14,12 @@ import (
 	"strconv"
 	"strings"
 
-	"ostree-go/internal/dateparse"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/staticdelta"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/dateparse"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/staticdelta"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 // Options mirrors the option table of ot-builtin-prune.c.

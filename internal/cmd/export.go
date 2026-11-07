@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/export"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/export"
 )
 
 func exportOptions() []cli.Option {

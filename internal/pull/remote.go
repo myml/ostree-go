@@ -12,9 +12,9 @@ import (
 	"sort"
 	"strings"
 
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 // RemoteOptions configures a remote (file:// or http) pull.

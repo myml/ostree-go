@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // Linux F_OFD_SETLK/F_OFD_SETLKW.  syscall does not export them on every

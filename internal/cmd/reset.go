@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/tree"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/tree"
 )
 
 func runReset(ctx *cli.Context) error {

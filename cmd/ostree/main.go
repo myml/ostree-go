@@ -6,8 +6,8 @@ package main
 import (
 	"os"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/cmd"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/cmd"
 )
 
 func main() {

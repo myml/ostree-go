@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // Setup registers the implemented commands and the repository opener on app.

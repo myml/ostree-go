@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/repo"
-	"ostree-go/internal/sign"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/sign"
 )
 
 // signOptions mirrors ot-builtin-sign.c.

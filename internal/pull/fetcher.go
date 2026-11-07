@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // fs404 is the sentinel returned for HTTP 404/410 and missing local files.

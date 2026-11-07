@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // runRefs implements ot-builtin-refs.c. Like the C implementation it runs one

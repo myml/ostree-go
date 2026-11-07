@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 func initOptions() []cli.Option {

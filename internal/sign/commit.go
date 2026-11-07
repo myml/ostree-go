@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // MetadataType is the GVariant type of detached metadata and summary

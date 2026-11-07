@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"ostree-go/internal/fsutil"
+	"github.com/myml/ostree-go/internal/fsutil"
 )
 
 // LoosePath returns the loose object path relative to objects/, e.g.

@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"ostree-go/internal/prune"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/prune"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // RemoveDeployment deletes a deployment directory, its origin and backing dir.

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/gvariant"
 )
 
 const (

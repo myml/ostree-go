@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"ostree-go/internal/checksum"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // List enumerates the static deltas in the repository, returning the

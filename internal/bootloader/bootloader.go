@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"ostree-go/internal/bootconfig"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/bootconfig"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // Context is everything a backend needs in order to regenerate its

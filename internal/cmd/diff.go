@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"ostree-go/internal/cli"
-	"ostree-go/internal/diff"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/diff"
 )
 
 func diffOptions() []cli.Option {

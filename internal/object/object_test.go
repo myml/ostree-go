@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/checksum"
 )
 
 func readFixture(t *testing.T, name string) []byte {

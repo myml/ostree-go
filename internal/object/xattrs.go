@@ -6,7 +6,7 @@ import (
 	"math/bits"
 	"sort"
 
-	"ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/gvariant"
 )
 
 // XAttr is one extended attribute. Name does not include the trailing NUL.

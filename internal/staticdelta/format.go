@@ -26,10 +26,10 @@ import (
 	"sort"
 	"strings"
 
-	"ostree-go/internal/checksum"
-	"ostree-go/internal/gvariant"
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/checksum"
+	"github.com/myml/ostree-go/internal/gvariant"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // Compression type bytes used by the part files.

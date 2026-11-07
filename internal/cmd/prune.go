@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"ostree-go/internal/cli"
-	"ostree-go/internal/prune"
+	"github.com/myml/ostree-go/internal/cli"
+	"github.com/myml/ostree-go/internal/prune"
 )
 
 // pruneOptions mirrors ot-builtin-prune.c, in the same order, so that --help

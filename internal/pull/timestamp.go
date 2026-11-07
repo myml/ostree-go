@@ -3,8 +3,8 @@ package pull
 import (
 	"fmt"
 
-	"ostree-go/internal/object"
-	"ostree-go/internal/repo"
+	"github.com/myml/ostree-go/internal/object"
+	"github.com/myml/ostree-go/internal/repo"
 )
 
 // FetchCommitTimestamp downloads one commit object from a remote without
